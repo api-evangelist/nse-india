@@ -1,8 +1,25 @@
 aid: nse-india
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nse-india.png
 name: Nse-india
-description: 'Nse-india is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'National Stock Exchange of India (NSE), operating at nseindia.com, is
+  one of the world''s largest stock exchanges by number of trades and derivatives
+  contracts, headquartered in Mumbai. It runs electronic equity, derivatives, debt,
+  and currency markets, publishes market data and corporate filings, and maintains
+  the Nifty family of indices via NSE Indices. NSE exposes market data primarily
+  through licensed data feeds and the undocumented endpoints powering nseindia.com
+  rather than a published public developer API program; this profile was surfaced
+  as an enrichment lead and has no documented public REST API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/nse-india/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Stock Exchange
+- Financial Services
+- Market Data
+- Capital Markets
+- Trading
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nse-india-domain-security.yml
 - type: Website
-  url: https://nse-india.com
+  url: https://www.nseindia.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
