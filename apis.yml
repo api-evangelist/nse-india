@@ -44,7 +44,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Stock Exchange
-- Financial-Services
+- Financial Services
 - Market Data
 - Capital Markets
 - Trading
@@ -57,6 +57,7 @@ tags_raw:
 - Capital Markets
 - Trading
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
